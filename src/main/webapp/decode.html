@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decode Steganography Image </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>Secure Image Steganography</h1>
+    <p>Java Web Application | Cyber Security</p>
+</div>
+
+<!-- MAIN CARD -->
+<div class="card">
+    <h2>Decode Message</h2>
+
+    <form action="decode" method="post" enctype="multipart/form-data">
+        <label>Select Encoded Image</label>
+        <input type="file" name="image" accept="image/*" required>
+
+        <label>Password</label>
+        <input type="password" name="password" required>
+
+        <button type="submit">Decode Message</button>
+    </form>
+
+    <a class="link" href="encode.html">Go to Encode</a>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>Developed by <b>Vasanthkumar (SVK)</b></p>
+
+    <div class="social">
+        <a href="https://www.linkedin.com/in/svk-vasanthkumar/" target="_blank">
+            <img src="assets/icons/linkedin.png">
+        </a>
+        <a href="https://github.com/svk-vasanthkumar" target="_blank">
+            <img src="assets/icons/git.png">
+        </a>
+        <a href="https://www.instagram.com/svk__vasanthkumar/" target="_blank">
+            <img src="assets/icons/insta.png">
+        </a>
+    </div>
+</div>
+
+</body>
+</html>

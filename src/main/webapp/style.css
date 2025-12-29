@@ -1,0 +1,144 @@
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background-color: #0b0f14;
+    color: #f1f1f1;
+}
+
+/* ===== HEADER ===== */
+.header {
+    text-align: center;
+    padding: 25px;
+    background: #000;
+    border-bottom: 2px solid #ff003c;
+}
+
+.header h1 {
+    margin: 0;
+    color: #ff003c;
+}
+
+.header p {
+    color: #00bfff;
+    font-size: 14px;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: #111;
+    width: 380px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ff003c;
+    box-shadow: 0 0 20px rgba(255, 0, 60, 0.35);
+}
+
+/* ===== TITLE ===== */
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff003c;
+}
+
+/* ===== FORM ===== */
+label {
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+input,
+textarea {
+    width: 100%;
+    background: #000;
+    color: #00ff9c; /* green text for hacker feel */
+    border: 1px solid #ff003c;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+input::file-selector-button {
+    background: #ff003c;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* ===== BUTTON ===== */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff003c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00ff9c;
+    color: black;
+}
+
+/* ===== LINKS ===== */
+.link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ff003c;
+}
+
+/* ===== RESULT ===== */
+.result-success {
+    color: #00ff9c;
+    border-left: 4px solid #00ff9c;
+    padding-left: 10px;
+}
+
+.result-error {
+    color: #ff003c;
+    border-left: 4px solid #ff003c;
+    padding-left: 10px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    text-align: center;
+    padding: 20px;
+    
+    border-top: 1px solid #ff003c;
+}
+.footer p{
+	font-size: 15px;
+}
+
+.footer b {
+    color: #00bfff;
+    font-size: 20px;
+}
+
+.social img {
+    width: 26px;
+    margin: 0 8px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.2s;
+}
+
+.social img:hover {
+    transform: scale(1.3);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Image Steganography</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1> Secure Image Steganography <span class="cursor">_</span></h1>
+    <p>Cyber Security | Ethical Hacking Project</p>
+</div>
+
+
+<!-- MAIN CARD -->
+<div class="card">
+    <h2>Encode Message</h2>
+
+    <form action="encode" method="post" enctype="multipart/form-data">
+        <label>Select Image</label>
+        <input type="file" name="image" required>
+
+        <label>Secret Message</label>
+        <textarea name="message" required></textarea>
+
+        <label>Password</label>
+        <input type="password" name="password" required>
+
+        <button type="submit">Encode & Download</button>
+    </form>
+
+    <a class="link" href="decode.html">Go to Decode</a>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>‍ Developed by <b>Vasanthkumar (SVK)</b></p>
+    <p> For Educational & Ethical Use Only</p>
+
+    <div class="social">
+        <a href="https://www.linkedin.com/in/svk-vasanthkumar/" target="_blank">
+            <img src="assets/icons/linkedin.png">
+        </a>
+        <a href="https://github.com/svk-vasanthkumar" target="_blank">
+            <img src="assets/icons/git.png">
+        </a>
+        <a href="https://www.instagram.com/svk__vasanthkumar/" target="_blank">
+            <img src="assets/icons/insta.png">
+        </a>
+    </div>
+</div>
+
+
+</body>
+</html>

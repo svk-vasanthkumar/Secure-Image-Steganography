@@ -1,0 +1,17 @@
+# Java
+*.class
+
+# Maven
+target/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Build folders
+bin/
+build/
+
+# OS
+.DS_Store
