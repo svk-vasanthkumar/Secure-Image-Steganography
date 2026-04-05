@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Image Steganography</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1> Secure Image Steganography <span class="cursor">_</span></h1>
+    <p>Cyber Security | Ethical Hacking Project</p>
+</div>
+
+<div class="card">
+    <h2>Encode Message</h2>
+
+    <form id="encodeForm">
+        <label>Select Image</label>
+        <input type="file" name="image" accept="image/png" required>
+
+        <label>Secret Message</label>
+        <textarea name="message" required></textarea>
+
+        <label>Password</label>
+        <input type="password" name="password" required>
+
+        <button type="submit">Encode & Download</button>
+    </form>
+
+    <a class="link" href="decode.html">Go to Decode</a>
+</div>
+
+<div class="footer">
+    <p>Developed by <b>Vasanthkumar (SVK)</b></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

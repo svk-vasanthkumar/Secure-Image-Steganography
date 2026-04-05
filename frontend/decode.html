@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decode Steganography Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>Secure Image Steganography</h1>
+    <p>Cyber Security</p>
+</div>
+
+<div class="card">
+    <h2>Decode Message</h2>
+
+    <form id="decodeForm">
+        <label>Select Encoded Image</label>
+        <input type="file" name="image" accept="image/png" required>
+
+        <label>Password</label>
+        <input type="password" name="password" required>
+
+        <button type="submit">Decode Message</button>
+    </form>
+
+    <!-- RESULT BOX -->
+    <div id="resultBox" class="result-box hidden">
+        <h3>🔓 Decoded Message</h3>
+        <p id="resultText"></p>
+
+        <button onclick="copyMessage()">Copy Message 📋</button>
+    </div>
+
+    <a class="link" href="encode.html">Go to Encode</a>
+</div>
+
+<div class="footer">
+    <p>Developed by <b>Vasanthkumar (SVK)</b></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
