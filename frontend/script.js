@@ -18,7 +18,7 @@ if (encodeForm) {
         formData.append("password", password);
 
         try {
-            const res = await fetch("http://localhost:3000/api/encode", {
+            const res = await fetch("https://secure-image-steganography-backend.onrender.com", {
                 method: "POST",
                 body: formData
             });
@@ -63,7 +63,7 @@ if (decodeForm) {
         formData.append("password", password);
 
         try {
-            const res = await fetch("http://localhost:3000/api/decode", {
+            const res = await fetch("https://secure-image-steganography-backend.onrender.com", {
                 method: "POST",
                 body: formData
             });
