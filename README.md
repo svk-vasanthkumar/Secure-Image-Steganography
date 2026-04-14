@@ -103,7 +103,7 @@ Do not use it for illegal activities.
 
 ---
 
-## 👨‍💻 Developer
+## 👨‍💻 Developer 
 
 **Vasanthkumar (SVK)**  
 - GitHub: https://github.com/svk-vasanthkumar  
