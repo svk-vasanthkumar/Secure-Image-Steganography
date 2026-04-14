@@ -1,7 +1,7 @@
 <div align="left" style="position: relative;">
 <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" align="right" width="30%" style="margin: -20px 0 0 20px;">
 
-<h1>🔐 Secure Image Steganography</h1>
+<h1>🔐 Secure Image Steganography 👨‍💻</h1>
 
 <p align="left">
 	<em>Full Stack Cybersecurity Project for Secure Data Hiding</em>
